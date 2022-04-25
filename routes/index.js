@@ -183,6 +183,5 @@ router.post('/room/:id/sys',async (req,res,next)=>{
         next(error);
     }
 });
-    // router ban 이런거 만들고 디비에 저장하도록 하나 만들계획
 
 module.exports = router;
